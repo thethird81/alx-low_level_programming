@@ -11,7 +11,7 @@ int i;
 char ch;
 for (i = 48; i <= 57; i++)
 {
-putchar(ch);
+putchar(i);
 }
 for (ch = 'a'; ch <= 'f'; ch++)
 {
