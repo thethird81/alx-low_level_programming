@@ -7,7 +7,7 @@ void print_alphabet(void)
 
 {
 
-	char ch;
+	int ch;
 
 
 
@@ -15,13 +15,13 @@ void print_alphabet(void)
 
 	{
 
-		putchar(ch);
+		_putchar(ch);
 
 
 
 	}
 
-	putchar(10);
+	_putchar('\n');
 
 }
 
