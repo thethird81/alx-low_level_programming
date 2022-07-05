@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - absolute value
@@ -14,7 +15,8 @@ void print_to_98(int i)
 	{
 	for (j = i ; j <= 98 ; j++)
 	{
-	_putchar(j + '0');
+	printf("%d", j);
+
 	if (j != 98)
 	{
 	_putchar (',');
@@ -26,7 +28,9 @@ void print_to_98(int i)
 	{
 		for (j = i ; j >= 98 ; j--)
 		{
-		_putchar(j + '0');
+
+			printf("%d", j);
+
 		if (j != 98)
 		{
 		_putchar(',');
