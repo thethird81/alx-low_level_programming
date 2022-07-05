@@ -1,22 +1,8 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
- * main - print_alphabet
- * Return: 0
+ * print_alphabet - print alphabet
  */
-
-
-
-int main(void)
-
-{
-
-	print_alphabet();
-
-	return (0);
-
-}
-
 void print_alphabet(void)
 
 {
