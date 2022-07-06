@@ -19,7 +19,7 @@ void jack_bauer(void)
 	{
 		if (a == 2)
 		{
-			e == 3;
+			e = 3;
 		}
 		for (b = 0 ; b <= 3 ; b++)
 
