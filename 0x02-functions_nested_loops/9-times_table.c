@@ -24,8 +24,8 @@ void times_table(void)
 				if (l == 0)
 				{
 					_putchar(',');
-					_putchar('.');
-					_putchar('.');
+					_putchar(' ');
+					_putchar(' ');
 				}
 				_putchar(k + '0');
 				l = 0;
@@ -33,7 +33,7 @@ void times_table(void)
 			else
 			{
 				_putchar(',');
-				_putchar('.');
+				_putchar(' ');
 				_putchar(k / 10 + '0');
 				_putchar(k % 10 + '0');
 			}
