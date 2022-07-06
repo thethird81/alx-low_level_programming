@@ -30,9 +30,12 @@ void print_to_98(int i)
 		{
 
 			printf("%d", j);
+			
+			if(j != 98)
+			{
 			_putchar(',');
 			_putchar(' ');
-
+			}
 		}
 
 
