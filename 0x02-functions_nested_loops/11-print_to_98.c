@@ -30,6 +30,8 @@ void print_to_98(int i)
 		{
 
 			printf("%d", j);
+			_putchar(',');
+			_putchar(' ');
 
 		}
 
