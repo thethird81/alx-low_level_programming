@@ -17,7 +17,9 @@ if (c < 0)
 	_putchar(n + '0');
 	}
 	else
+	{
 	_putchar(8 + '0');
+	}
 	return (n);
 
 }
