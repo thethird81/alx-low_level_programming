@@ -10,12 +10,17 @@ void jack_bauer(void)
 
 
 
-	int a, b, c, d;
+	int a, b, c, d, e;
 
+	e = 9;
 
 
 	for (a = 0 ; a <= 2 ; a++)
-
+	{
+		if (a == 2)
+		{
+			e == 3;
+		}
 		for (b = 0 ; b <= 3 ; b++)
 
 			for (c = 0 ; c <= 5 ; c++)
@@ -37,7 +42,7 @@ void jack_bauer(void)
 					_putchar(10);
 
 				}
-
+	}
 }
 
 
