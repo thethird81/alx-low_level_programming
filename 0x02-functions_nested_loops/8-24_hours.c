@@ -2,7 +2,6 @@
 
 /**
  *jack_bauer - absolute valu
- * @c: - character
  * Return: 0 if caps 1 if lower case
  */
 
