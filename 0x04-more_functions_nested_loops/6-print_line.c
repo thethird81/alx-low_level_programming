@@ -14,10 +14,14 @@ void print_line(int n)
 
 {
 
-	for (n = 0; n <= 14 ; n++)
+	int i;
+if (n > 0)
+{
+	for (i = 0; i <= n ; i++)
 	{
 		_putchar('_');
 	}
 	}
+}
 	_putchar(10);
 }
