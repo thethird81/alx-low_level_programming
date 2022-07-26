@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * argstostr - concatenates all the strings passed to a function
- * @ac: count of args passed the the function
- * @av: array of arguments
- *
- * Return: pointer to the new string
- */
+  * argstostr - concatenates all the strings passed to a function
+  * @ac: count of args passed the the function
+  * @av: array of arguments
+  *
+  * Return: pointer to the new string
+  */
 char *argstostr(int ac, char **av)
 {
 	char *new_string = NULL;
@@ -37,11 +37,11 @@ char *argstostr(int ac, char **av)
 }
 
 /**
- * len - returns length of str
- * @str: string to be counted
- *
- * Return: length of the string
- */
+  * len - returns length of str
+  * @str: string to be counted
+  *
+  * Return: length of the string
+  */
 int len(char *str)
 {
 	int len = 0;
