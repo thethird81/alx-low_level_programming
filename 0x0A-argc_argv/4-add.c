@@ -1,51 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include "main.h"
 
 /**
- * main - entry point prints the sum of a variable amount of numbers
-* @argc: size of argv
-* @argv: array of pointers to command line args passed
-*
-* Return: 0
-*/
+ *main - adds positive numbers
+ *@argc: number of arguments
+ *@argv: array of arguments
+ *Return: 0 on success, 1 on failure
+ */
 int main(int argc, char *argv[])
 {
-	int sum = 0;
+	int i, j, sum = 0;
+	for (i = 1; i < argc; i++)
 
-	if (argc > 1)
 	{
-		while (--argc > 0)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (is_valid(argv[argc]))
-				sum += atoi(argv[argc]);
-			else
+			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
 				printf("Error\n");
 				return (1);
 			}
 		}
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
 }
-
-/**
- * is_valid - checks if a number doesn't have any letters in it
- * @s: address of string to be checked
- *
- * Return: 1 if valid, 0 otherwise
- */
-int is_valid(char *s)
-{
-	while (*s)
-	{
-		if ((*s >= 'A' && *s <= 'Z') || (*s >= 'a' && *s <= 'z'))
-			return (0);
-		s++;
-	}
-	return (1);
-}
-
-
