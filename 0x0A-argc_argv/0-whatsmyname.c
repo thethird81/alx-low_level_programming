@@ -1,14 +1,17 @@
 #include <stdio.h>
+#define UNUSED(x)  (void)(x)
 
 /**
- * main - entry point prints the name of the program
- * @argc: size of argv
- * @argv: array of pointers to command line args passed
- *
- * Return: 0
- */
-int main(int argc __attribute__((unused)), char *argv[])
+*main - function
+*
+*@argv: the array of argument
+*@argc: The counter of argument
+*Return: always o
+*/
+
+int main(int argc, char **argv)
 {
+	UNUSED(argc);
 	printf("%s\n", argv[0]);
 	return (0);
 }
