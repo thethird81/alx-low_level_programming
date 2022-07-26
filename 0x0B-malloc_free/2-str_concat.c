@@ -6,7 +6,7 @@
  * * Return: length of a string
  */
  
-  int _strl/en(char *s)
+  int _strlen(char *s)
   {
   int l = 0;
  
@@ -16,8 +16,7 @@
   l++;
   }
   return (l);
-  }
- 
+ }
 
 /**
  * str_concat - Concat 2 strings.
