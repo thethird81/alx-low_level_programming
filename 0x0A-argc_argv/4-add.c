@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-"main.h"
+#include "main.h"
 
 /**
  * main - ent#include ry point prints the sum of a variable amount of numbers
