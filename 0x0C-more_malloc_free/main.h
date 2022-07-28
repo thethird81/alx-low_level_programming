@@ -6,7 +6,7 @@
 #define min(x, y) (((x) < (y)) ? (x) : (y))
 
 int _putchar(char c);
-void*malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b);
 char *str ing_nconcat(char *s1, char *s2, unsigned int n);
 int len(char *str);
 void *_calloc(unsigned int nmemb, unsigned int size);
