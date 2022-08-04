@@ -6,7 +6,7 @@
   *
   * Return: void
   */
-void print_all(const char * const ormat,...f )
+void print_all(const char * const format, ...)
 {
 	int j = 0, last_arg;
 	char type;
