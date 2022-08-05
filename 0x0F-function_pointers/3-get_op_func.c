@@ -4,14 +4,13 @@
 
 /**
   * get_op_func -  selects the correct function to perform the operation
-  * @s: operator to be used to choose the right function
-  *
+  * @s: operator to be used to choose the right functio
   * Return: pointer to the function
   */
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
-		{"+", op_ add},
+		{"+", op_add},
 		{"-", op_sub},
 		{"*", op_mul},
 		{"/", op_div},
@@ -21,10 +20,10 @@ int (*get_op_func(char *s))(int, int)
 	int i = 0;
 
 	while (i < 5)
+	{
 		if (strcmp(s, ops[i].op) == 0)
-			return (o
-					{ps[i].f);
-						i++;
-					}
+			return (ops[i].f);
+		i++;
+	}
 	return (NULL);
 }
